@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Himanshu-projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="section-navbar">
+        <div class="container">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <img src="https://logos.textgiraffe.com/logos/logo-name/Himanshu-designstyle-birthday-m.png"
+                        width="80%" height="auto" alt="Himanshu's logo">
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="containers">
+        <h1>Contact Me</h1>
+
+        <form action="https://formspree.io/f/xpwwvdbw" method="POST" class="form-area">
+            <div class="form-container">
+                <div class="box">
+                    <label for="firstName">First Name</label>
+                    <input type="text" required name="First Name" id="firstName" placeholder="First Name...">
+                </div>
+
+                <div class="box">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" required name="Last Name" id="lastName" placeholder="Last Name...">
+                </div>
+
+                <div class="box">
+                    <label for="email">Email</label>
+                    <input type="email" required name="email" id="email" placeholder="email@example.com">
+                </div>
+
+                <div class="box">
+                    <label for="jobRole">Job Role</label>
+                    <select name="Jobrole" required id="jobRole">
+                        <option value="">Select Job Role</option>
+                        <option value="pilot">Pilot</option>
+                        <option value="loco_pilot">Loco Pilot</option>
+                        <option value="engineer">Engineer</option>
+                        <option value="software">Software Developer</option>
+                    </select>
+                </div>
+
+                <div class="box">
+                    <label for="comments">Your Comments</label>
+                    <textarea name="textarea" required id="comments" cols="30" rows="3"></textarea>
+                </div>
+
+                <div class="box">
+                    <label for="city">City</label>
+                    <input type="text" name="City" required id="city" placeholder="City">
+                </div>
+
+                <div class="box">
+                    <label for="pincode">Pincode</label>
+                    <input type="number" required name="pincode" id="pincode" placeholder="123456">
+                </div>
+
+                <div class="box">
+                    <label for="startDate">Start Date</label>
+                    <input type="date" required id="startDate">
+                </div>
+
+                <div class="box">
+                    <label for="cv">Upload Your CV</label>
+                    <input type="file" required id="cv">
+                </div>
+            </div>
+            <div class="button">
+                <button type="submit">Apply Now</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="section-footer">
+        <div class="container">
+            <p>&copy; 2024 Himanshu-projects. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
